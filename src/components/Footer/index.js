@@ -15,9 +15,9 @@ function Footer() {
     style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
   >
     © 2022 Copyright  <br></br>
-    <a className="text-white" href="https://mdbootstrap.com/">
+    
   WebDevelopers
-    </a>
+    
   </div>
   {/* Copyright */}
 </footer>

@@ -1,13 +1,13 @@
-import HeaderC from '../components/Header';
-import { licores } from '../data/data';
-import LicoresCard from '../components/Licores/licores';
-import showAdditional from '../components/App/Licores2';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import { licores } from '../../data/data';
+import LicoresCardA from '../../components/Licores/licoresC';
+import showAdditional from '../../components/App/Licores2';
+import Footer from '../../components/Footer';
 
 function Lista() {
   return (
     <>
-      <HeaderC />
+      <Header />
 
       <br></br>
       <div className="Wrapper">
@@ -19,7 +19,7 @@ function Lista() {
         <div className='wrapper'>
           <h1>Licores</h1>
           {licores.map(l => (
-            <LicoresCard
+            <LicoresCardA
               key={l.name}
               image={l.image}
               id={l.id}
@@ -32,6 +32,7 @@ function Lista() {
           ))}
 
         </div>
+       
         <Footer />
       </div>
     </>

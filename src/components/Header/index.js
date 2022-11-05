@@ -9,9 +9,7 @@ export default function Header() {
         <div>
             <nav className="navbar navbar-expand-lg bg-dark text-white">
                 <div className="container-fluid text-white">
-                    <a className="navbar-brand text-white" href="#">
-                        Navbar
-                    </a>
+                   
                     <button
                         className="navbar-toggler text-white"
                         type="button"
@@ -47,11 +45,7 @@ export default function Header() {
                                     Lista de Ventas
                                 </Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link active text-white" to="/compras" aria-current="page" href="#">
-                                    Carrito
-                                </Link>
-                            </li>
+                           
                         </ul>
                         <form className="d-flex" role="search">
                             <input

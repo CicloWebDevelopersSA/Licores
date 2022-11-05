@@ -9,9 +9,7 @@ export default function HeaderC() {
         <div>
             <nav className="navbar navbar-expand-lg bg-dark text-white">
                 <div className="container-fluid text-white">
-                    <a className="navbar-brand text-white" href="#">
-                        Navbar
-                    </a>
+                  
                     <button
                         className="navbar-toggler text-white"
                         type="button"

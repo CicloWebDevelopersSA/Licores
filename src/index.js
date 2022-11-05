@@ -6,11 +6,13 @@ import App from './components/App/App';
 import Licores2 from './components/App/Licores2.js';
 import * as boostrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import Home from './Pages/Home';
-import Lista from './Pages/ListaProductos';
-import VentaLicores from './Pages/Ventas';
-import { ModificarProductos } from './components/ModificarProductos';
-import Compras from './Pages/CarritoCompras';
+import Home from './Pages/Administrador/Home';
+import Lista from './Pages/Administrador/ListaProductos';
+import VentaLicores from './Pages/Administrador/ListaVentas';
+import { ModificarProductos } from './Pages/Administrador/ModificarProductos';
+import Compras from './Pages/Cliente/CarritoCompras';
+import { CrearProductos } from './Pages/Administrador/CrearProductos';
+import ListaC from './Pages/Cliente/ListarProductosC';
 
 
 //import {Ap} from './nuevaPag.js';
@@ -33,9 +35,11 @@ render(
             <Route path="/" element={<App />} />
             <Route path="/licores2" element={<Licores2 />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/listaproductos" element={<Lista />} />
+            <Route path="/listaproductosA" element={<Lista />} />
+            <Route path="/listaproductos" element={<ListaC />} />
             <Route path="/ventas" element={<VentaLicores />} />
             <Route path="/modificar" element={<ModificarProductos />} />
+            <Route path="/crear" element={<CrearProductos />} />
             <Route path="/compras" element={<Compras />} />
         </Routes>
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import { venta } from '../data/dataVentas';
+import { venta } from '../../data/dataVentas';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 export default function VentaLicores() {
     return <>
